@@ -1037,7 +1037,7 @@ video {
 /* custom css */
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .navbar-fixed {
@@ -1074,6 +1074,12 @@ body {
 .hamburger-active > span:nth-child(3) {
   --tw-rotate: -45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.card-shadow {
+  border-radius: 0.475rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  overflow: hidden;
 }
 
 .hover\:rounded-lg:hover {
